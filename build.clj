@@ -104,8 +104,9 @@ query {
     (spit "README.adoc" readme)))
 
 (defn -main
-  [[oauth-token]]
-  (let [all-releases (fetch-all-releases oauth-token)]
+  [& _]
+  (let [oauth-token (System/getenv "README_TOKEN")
+        all-releases (fetch-all-releases oauth-token)]
     (build-readme all-releases)))
 
 (when *command-line-args*
