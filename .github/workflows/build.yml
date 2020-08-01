@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install babashka
-        run: bash <(curl -s https://raw.githubusercontent.com/borkdude/babashka/master/install) /tmp
-      - run: /tmp/bb --version
+        run: bash <(curl -s https://raw.githubusercontent.com/borkdude/babashka/master/install) $(pwd)
+      - run: ./bb --version
       - name: Build README
         env:
           README_TOKEN: ${{ secrets.README_TOKEN }}
         run: |
-          /tmp/bb build.clj run
+          ./bb build.clj run
           cat README.adoc
