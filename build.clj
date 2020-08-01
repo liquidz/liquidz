@@ -74,11 +74,11 @@ query {
   (get-in release [:releases :nodes 0 :publishedAt]))
 
 (defn recent-releases
-  [all-releases]
+  [all-releases num-of-releases]
   (->> all-releases
        (sort-by published-at)
        (reverse)
-       (take 5)))
+       (take num-of-releases)))
 
 (defn release->adoc-link
   [release]
@@ -92,17 +92,21 @@ query {
             (str repo-name " " (:name node))
             date)))
 
-(defn -main
-  [[oauth-token]]
+(defn build-readme
+  [all-releases]
   (let [template (slurp "README.tmpl")
-        all-releases (fetch-all-releases oauth-token)
-        releases (recent-releases all-releases)
+        releases (recent-releases all-releases 7)
         links (->> (map release->adoc-link releases)
                    (map #(str "- " %))
                    (str/join "\n"))
         readme (-> template
                    (str/replace "<<links>>" links))]
     (spit "README.adoc" readme)))
+
+(defn -main
+  [[oauth-token]]
+  (let [all-releases (fetch-all-releases oauth-token)]
+    (build-readme all-releases)))
 
 (when *command-line-args*
   (-main *command-line-args*))
