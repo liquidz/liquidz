@@ -5,7 +5,7 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 
 | *Recent releases*
 
-- link:https://github.com/liquidz/vim-iced/releases/tag/2.1.5[vim-iced 2.1.5] - 2020-08-15
+- link:https://github.com/liquidz/vim-iced/releases/tag/2.1.6[vim-iced 2.1.6] - 2020-08-18
 - link:https://github.com/liquidz/antq/releases/tag/0.6.2[antq 0.6.2] - 2020-08-10
 - link:https://github.com/liquidz/norosi/releases/tag/nightly[norosi nightly] - 2020-07-25
 - link:https://github.com/toyokumo/tarayo/releases/tag/0.2.3[tarayo 0.2.3] - 2020-07-16
