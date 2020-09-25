@@ -13,6 +13,6 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 - link:https://github.com/liquidz/antq-action/releases/tag/v1[antq-action v1] - 2020-06-07
 - link:https://github.com/liquidz/dad/releases/tag/0.3.1[dad 0.3.1] - 2020-05-15
 
-| image::/liquidz/liquidz/raw/master/release.png[recent release]
+| image::https://raw.githubusercontent.com/liquidz/liquidz/master/release.png[recent release]
 
 |===
