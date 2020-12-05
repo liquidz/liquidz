@@ -5,8 +5,8 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 
 | *Recent releases*
 
+- link:https://github.com/liquidz/antq/releases/tag/0.9.2[antq 0.9.2] - 2020-12-04
 - link:https://github.com/liquidz/antq-action/releases/tag/v1.1[antq-action v1.1] - 2020-12-02
-- link:https://github.com/liquidz/antq/releases/tag/0.9.1[antq 0.9.1] - 2020-11-30
 - link:https://github.com/liquidz/vim-iced/releases/tag/2.6.0[vim-iced 2.6.0] - 2020-11-28
 - link:https://github.com/liquidz/docker-postgres-with-uuid/releases/tag/12.5[docker-postgres-with-uuid 12.5] - 2020-11-18
 - link:https://github.com/toyokumo/tarayo/releases/tag/0.2.4[tarayo 0.2.4] - 2020-10-27
