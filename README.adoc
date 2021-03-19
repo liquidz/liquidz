@@ -5,7 +5,7 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 
 | *Recent releases*
 
-- link:https://github.com/liquidz/antq/releases/tag/0.12.1[antq 0.12.1] - 2021-03-16
+- link:https://github.com/liquidz/antq/releases/tag/0.12.2[antq 0.12.2] - 2021-03-18
 - link:https://github.com/liquidz/vim-iced/releases/tag/3.0.1[vim-iced 3.0.1] - 2021-03-12
 - link:https://github.com/liquidz/merr/releases/tag/0.3.2[merr 0.3.2] - 2021-02-22
 - link:https://github.com/liquidz/kaocha-nrepl/releases/tag/1.0.4[kaocha-nrepl 1.0.4] - 2021-02-22
