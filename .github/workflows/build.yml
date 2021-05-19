@@ -13,7 +13,7 @@ jobs:
           mkdir -p /tmp/bb
           curl -sLO https://raw.githubusercontent.com/babashka/babashka/master/install
           chmod +x install
-          ./install --dir . --download-dir /tmp/bb
+          ./install --dir $(pwd) --download-dir /tmp/bb
           ./bb --version
       - name: Build README
         env:
