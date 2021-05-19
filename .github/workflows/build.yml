@@ -10,9 +10,10 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install babashka
         run: |
+          mkdir -p /tmp/bb
           curl -sLO https://raw.githubusercontent.com/babashka/babashka/master/install
           chmod +x install
-          ./install
+          ./install --dir . --download-dir /tmp/bb
           ./bb --version
       - name: Build README
         env:
