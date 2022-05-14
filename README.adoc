@@ -5,13 +5,13 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 
 | *Recent releases*
 
+- link:https://github.com/liquidz/rewrite-indented/releases/tag/0.1.27[rewrite-indented 0.1.27] - 2022-05-14
+- link:https://github.com/liquidz/test/releases/tag/0.0.92[test 0.0.92] - 2022-05-13
+- link:https://github.com/liquidz/antq/releases/tag/1.6.2[antq 1.6.2] - 2022-05-13
 - link:https://github.com/liquidz/docker-postgres-with-uuid/releases/tag/13.6[docker-postgres-with-uuid 13.6] - 2022-05-09
 - link:https://github.com/liquidz/clj-vimhelp/releases/tag/1.1.0[clj-vimhelp 1.1.0] - 2022-05-05
-- link:https://github.com/liquidz/rewrite-indented/releases/tag/0.1.1[rewrite-indented 0.1.1] - 2022-04-22
 - link:https://github.com/liquidz/vim-iced/releases/tag/3.8.7[vim-iced 3.8.7] - 2022-04-16
 - link:https://github.com/liquidz/dad/releases/tag/1.0.2[dad 1.0.2] - 2022-04-08
-- link:https://github.com/liquidz/antq/releases/tag/1.6.1[antq 1.6.1] - 2022-04-08
-- link:https://github.com/liquidz/testdoc/releases/tag/1.5.0[testdoc 1.5.0] - 2022-01-04
 
 | image::https://raw.githubusercontent.com/liquidz/liquidz/master/release.png[recent release]
 
