@@ -5,7 +5,7 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 
 | *Recent releases*
 
-- link:https://github.com/liquidz/build.edn/releases/tag/0.4.107[build.edn 0.4.107] - 2022-06-25
+- link:https://github.com/liquidz/build.edn/releases/tag/0.5.116[build.edn 0.5.116] - 2022-07-01
 - link:https://github.com/liquidz/vim-iced/releases/tag/3.9.2[vim-iced 3.9.2] - 2022-06-11
 - link:https://github.com/liquidz/antq/releases/tag/1.7.804[antq 1.7.804] - 2022-06-11
 - link:https://github.com/liquidz/antq-action/releases/tag/v2.0.0[antq-action v2.0.0] - 2022-05-22
