@@ -5,9 +5,9 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 
 | *Recent releases*
 
+- link:https://github.com/liquidz/iced-nrepl/releases/tag/1.2.465[iced-nrepl 1.2.465] - 2022-09-02
+- link:https://github.com/liquidz/antq/releases/tag/2.0.895[antq 2.0.895] - 2022-09-02
 - link:https://github.com/liquidz/vim-iced/releases/tag/3.11.3086[vim-iced 3.11.3086] - 2022-08-29
-- link:https://github.com/liquidz/iced-nrepl/releases/tag/1.2.462[iced-nrepl 1.2.462] - 2022-08-27
-- link:https://github.com/liquidz/antq/releases/tag/2.0.889[antq 2.0.889] - 2022-08-12
 - link:https://github.com/liquidz/merr/releases/tag/0.4.173[merr 0.4.173] - 2022-08-12
 - link:https://github.com/toyokumo/gluttony/releases/tag/0.4.91[gluttony 0.4.91] - 2022-08-08
 - link:https://github.com/liquidz/build.edn/releases/tag/0.7.145[build.edn 0.7.145] - 2022-07-30
