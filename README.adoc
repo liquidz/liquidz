@@ -5,13 +5,13 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 
 | *Recent releases*
 
-- link:https://github.com/toyokumo/gluttony/releases/tag/0.4.87[gluttony 0.4.87] - 2022-07-19
-- link:https://github.com/liquidz/build.edn/releases/tag/0.1.34[build.edn 0.1.34] - 2022-05-21
-- link:https://github.com/liquidz/rewrite-indented/releases/tag/0.1.0[rewrite-indented 0.1.0] - 2022-04-21
-- link:https://github.com/liquidz/clj-xmas/releases/tag/1.0.0[clj-xmas 1.0.0] - 2021-12-17
-- link:https://github.com/liquidz/deno-interceptor/releases/tag/1.0.0[deno-interceptor 1.0.0] - 2021-08-08
-- link:https://github.com/liquidz/deno-nrepl-client/releases/tag/1.0.0[deno-nrepl-client 1.0.0] - 2021-07-30
-- link:https://github.com/liquidz/deno-bencode/releases/tag/1.0.0[deno-bencode 1.0.0] - 2021-06-26
+- link:https://github.com/liquidz/testdoc/releases/tag/1.5.109[testdoc 1.5.109] - 2022-12-17
+- link:https://github.com/liquidz/antq/releases/tag/2.2.970[antq 2.2.970] - 2022-12-13
+- link:https://github.com/liquidz/vim-iced/releases/tag/3.13.3174[vim-iced 3.13.3174] - 2022-12-04
+- link:https://github.com/liquidz/deno-bencode/releases/tag/1.0.7[deno-bencode 1.0.7] - 2022-12-04
+- link:https://github.com/liquidz/merr/releases/tag/0.4.180[merr 0.4.180] - 2022-11-11
+- link:https://github.com/liquidz/build.edn/releases/tag/0.9.188[build.edn 0.9.188] - 2022-11-11
+- link:https://github.com/liquidz/iced-nrepl/releases/tag/1.2.468[iced-nrepl 1.2.468] - 2022-09-10
 
 | image::https://raw.githubusercontent.com/liquidz/liquidz/master/release.png[recent release]
 
