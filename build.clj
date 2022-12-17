@@ -4,7 +4,8 @@
    [cheshire.core :as json]
    [clojure.string :as str]))
 
-(def base-query "
+(def base-query
+  "
 query {
   viewer {
     repositories(first: 100, privacy: PUBLIC, after: <<cursor>>) {
@@ -16,7 +17,7 @@ query {
         name
         description
         url
-        releases(last:1) {
+        releases(orderBy: {field: CREATED_AT, direction: DESC}, first: 1) {
           totalCount
           nodes {
             name
