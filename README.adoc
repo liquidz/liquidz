@@ -1,6 +1,6 @@
 image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actions for build workflow", link="https://github.com/liquidz/liquidz/actions?query=workflow%3Abuild"]
 
-[cols="a,a"]
+[cols="a,a,a"]
 |===
 
 | *Recent releases*
@@ -14,5 +14,13 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 - link:https://github.com/liquidz/build.edn/releases/tag/0.9.188[build.edn 0.9.188] - 2022-11-11
 
 | image::https://raw.githubusercontent.com/liquidz/liquidz/master/release.png[recent release]
+
+| *Recent articles*
+
+- link:https://zenn.dev/uochan/articles/2022-12-18-alive-documents[生きたドキュメントを書こう] - 2022-12-18
+- link:https://tech.toyokumo.co.jp/entry/clj-kondo-as-bb-pods[Babashka pods から使う clj-kondo] - 2022-12-12
+- link:https://zenn.dev/uochan/articles/2022-12-09-dps-parinfer[ParinferのDenopsプラグインを作った] - 2022-12-08
+- link:https://zenn.dev/uochan/articles/2022-12-09-road-to-parinfer[Parinferのすすめ] - 2022-12-08
+- link:https://tech.toyokumo.co.jp/entry/clj-kondo[Clojureのリンターclj-kondoの使い方] - 2022-07-26
 
 |===

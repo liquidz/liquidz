@@ -1,8 +1,18 @@
 (ns build
   (:require
-   [babashka.curl :as curl]
-   [cheshire.core :as json]
-   [clojure.string :as str]))
+    [babashka.curl :as curl]
+    [cheshire.core :as json]
+    [clojure.data.xml :as xml]
+    [clojure.edn :as edn]
+    [clojure.java.io :as io]
+    [clojure.string :as str])
+  (:import
+    (java.time
+      ZoneId
+      ZonedDateTime)
+    java.time.format.DateTimeFormatter))
+
+;;;;; Releases {{{
 
 (def base-query
   "
@@ -92,23 +102,86 @@ query {
             (:url node)
             (str repo-name " " (:name node))
             date)))
+;; }}}
+
+;;;;; Articles {{{
+
+(def zenn-feed "https://zenn.dev/uochan/feed")
+
+(let [zdt (ZonedDateTime/parse "Tue, 08 Dec 2020 21:33:37 GMT"
+                               DateTimeFormatter/RFC_1123_DATE_TIME)]
+  (.format zdt DateTimeFormatter/ISO_LOCAL_DATE))
+
+(defn- parse-pub-date
+  [pub-date-str]
+  (ZonedDateTime/parse pub-date-str
+                       DateTimeFormatter/RFC_1123_DATE_TIME))
+
+(defn- zoned-date-time->iso-local-date
+  [^ZonedDateTime zdt]
+  (.format zdt DateTimeFormatter/ISO_LOCAL_DATE))
+
+(defn- parse-feed-item
+  [item]
+  (->> (:content item)
+       (map (juxt :tag (comp first :content)))
+       (into {})))
+
+(defn- load-extra-articles
+  []
+  (edn/read-string
+    (slurp "./extra-articles.edn")))
+
+(defn fetch-all-articles
+  []
+  (->> (concat
+         (->> (io/input-stream zenn-feed)
+              (xml/parse)
+              (xml-seq)
+              (filter (comp #{:item} :tag))
+              (map parse-feed-item))
+         (load-extra-articles))
+       (map #(update % :pubDate parse-pub-date))
+       (sort-by :pubDate)
+       (reverse)))
+
+;; }}}
 
 (defn build-readme
-  [all-releases]
+  [{:keys [all-releases all-articles]}]
   (let [template (slurp "README.tmpl")
         releases (recent-releases all-releases 7)
         links (->> (map release->adoc-link releases)
                    (map #(str "- " %))
                    (str/join "\n"))
+        articles (->> all-articles
+                      (take 5)
+                      (map #(format "- link:%s[%s] - %s"
+                                    (:link %)
+                                    (:title %)
+                                    (zoned-date-time->iso-local-date (:pubDate %))))
+                      (str/join "\n"))
         readme (-> template
-                   (str/replace "<<links>>" links))]
+                   (str/replace "<<links>>" links)
+                   (str/replace "<<articles>>" articles))]
     (spit "README.adoc" readme)))
 
 (defn -main
   [& _]
   (let [oauth-token (System/getenv "README_TOKEN")
-        all-releases (fetch-all-releases oauth-token)]
-    (build-readme all-releases)))
-
+        all-releases (fetch-all-releases oauth-token)
+        all-articles (fetch-all-articles)]
+    (build-readme {:all-releases all-releases
+                   :all-articles all-articles})))
 (when *command-line-args*
   (-main *command-line-args*))
+
+(comment
+  ;; pubDate 変換用
+  (let [ts "2022/7/26 15:00:00"
+        [d t] (str/split ts #" ")
+        [year month date] (map parse-long (str/split d #"/"))
+        [hour minute sec] (map parse-long (str/split t #":"))]
+    (println
+      (.format (ZonedDateTime/of year month date hour minute sec 0 (ZoneId/of "Asia/Tokyo"))
+               DateTimeFormatter/RFC_1123_DATE_TIME))))
