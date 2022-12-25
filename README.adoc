@@ -5,11 +5,11 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 
 | *Recent releases*
 
+- link:https://github.com/liquidz/vim-iced/releases/tag/3.14.3192[vim-iced 3.14.3192] - 2022-12-24
 - link:https://github.com/liquidz/iced-nrepl/releases/tag/1.2.474[iced-nrepl 1.2.474] - 2022-12-18
 - link:https://github.com/liquidz/merr/releases/tag/0.4.189[merr 0.4.189] - 2022-12-17
 - link:https://github.com/liquidz/testdoc/releases/tag/1.5.109[testdoc 1.5.109] - 2022-12-17
 - link:https://github.com/liquidz/antq/releases/tag/2.2.970[antq 2.2.970] - 2022-12-13
-- link:https://github.com/liquidz/vim-iced/releases/tag/3.13.3174[vim-iced 3.13.3174] - 2022-12-04
 - link:https://github.com/liquidz/deno-bencode/releases/tag/1.0.7[deno-bencode 1.0.7] - 2022-12-04
 - link:https://github.com/liquidz/build.edn/releases/tag/0.9.188[build.edn 0.9.188] - 2022-11-11
 
