@@ -5,13 +5,13 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 
 | *Recent releases*
 
+- link:https://github.com/liquidz/test/releases/tag/0.0.224-SNAPSHOT[test 0.0.224-SNAPSHOT] - 2023-02-24
+- link:https://github.com/liquidz/antq/releases/tag/2.2.999[antq 2.2.999] - 2023-02-24
 - link:https://github.com/liquidz/build.edn/releases/tag/0.9.194[build.edn 0.9.194] - 2023-02-13
-- link:https://github.com/liquidz/antq/releases/tag/2.2.992[antq 2.2.992] - 2023-02-04
 - link:https://github.com/liquidz/vim-iced/releases/tag/3.14.3207[vim-iced 3.14.3207] - 2023-02-03
 - link:https://github.com/liquidz/docker-postgres-with-uuid/releases/tag/14.6[docker-postgres-with-uuid 14.6] - 2023-01-26
 - link:https://github.com/liquidz/deno-nrepl-client/releases/tag/2.1.2[deno-nrepl-client 2.1.2] - 2023-01-01
 - link:https://github.com/liquidz/deno-bencode/releases/tag/1.0.8[deno-bencode 1.0.8] - 2022-12-28
-- link:https://github.com/liquidz/iced-nrepl/releases/tag/1.2.474[iced-nrepl 1.2.474] - 2022-12-18
 
 | image::https://raw.githubusercontent.com/liquidz/liquidz/master/release.png[recent release]
 
