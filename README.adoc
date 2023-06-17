@@ -5,13 +5,13 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 
 | *Recent releases*
 
+- link:https://github.com/liquidz/rewrite-indented/releases/tag/0.2.36[rewrite-indented 0.2.36] - 2023-06-16
+- link:https://github.com/liquidz/antq/releases/tag/2.5.1089[antq 2.5.1089] - 2023-06-16
 - link:https://github.com/liquidz/vim-iced/releases/tag/3.14.3225[vim-iced 3.14.3225] - 2023-05-08
 - link:https://github.com/liquidz/iced-nrepl/releases/tag/1.2.480[iced-nrepl 1.2.480] - 2023-05-07
-- link:https://github.com/liquidz/antq/releases/tag/2.4.1070[antq 2.4.1070] - 2023-05-03
 - link:https://github.com/liquidz/build.edn/releases/tag/0.9.216[build.edn 0.9.216] - 2023-05-03
 - link:https://github.com/toyokumo/gluttony/releases/tag/0.5.106[gluttony 0.5.106] - 2023-03-08
 - link:https://github.com/liquidz/merr/releases/tag/0.4.193[merr 0.4.193] - 2023-03-04
-- link:https://github.com/liquidz/test/releases/tag/0.0.224-SNAPSHOT[test 0.0.224-SNAPSHOT] - 2023-02-24
 
 | image::https://raw.githubusercontent.com/liquidz/liquidz/master/release.png[recent release]
 
