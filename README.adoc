@@ -5,8 +5,8 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 
 | *Recent releases*
 
+- link:https://github.com/liquidz/antq/releases/tag/2.7.1133[antq 2.7.1133] - 2023-10-02
 - link:https://github.com/liquidz/vim-iced/releases/tag/3.14.3255[vim-iced 3.14.3255] - 2023-09-29
-- link:https://github.com/liquidz/antq/releases/tag/2.6.1121[antq 2.6.1121] - 2023-09-11
 - link:https://github.com/liquidz/build.edn/releases/tag/0.10.227[build.edn 0.10.227] - 2023-07-22
 - link:https://github.com/liquidz/deno-nrepl-client/releases/tag/2.3.1[deno-nrepl-client 2.3.1] - 2023-07-17
 - link:https://github.com/liquidz/deno-interceptor/releases/tag/2.0.3[deno-interceptor 2.0.3] - 2023-07-08
