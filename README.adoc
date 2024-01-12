@@ -5,13 +5,13 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 
 | *Recent releases*
 
-- link:https://github.com/liquidz/antq/releases/tag/2.8.1169[antq 2.8.1169] - 2024-01-05
+- link:https://github.com/liquidz/antq/releases/tag/2.8.1173[antq 2.8.1173] - 2024-01-10
+- link:https://github.com/liquidz/rewrite-indented/releases/tag/0.2.44[rewrite-indented 0.2.44] - 2024-01-10
 - link:https://github.com/liquidz/vim-iced/releases/tag/3.15.3271[vim-iced 3.15.3271] - 2024-01-04
 - link:https://github.com/liquidz/deno-bencode/releases/tag/2.0.0[deno-bencode 2.0.0] - 2024-01-01
 - link:https://github.com/liquidz/mint/releases/tag/0.1.15[mint 0.1.15] - 2024-01-01
 - link:https://github.com/liquidz/deno-nrepl-client/releases/tag/3.0.0[deno-nrepl-client 3.0.0] - 2023-11-25
 - link:https://github.com/liquidz/deno-interceptor/releases/tag/3.0.0[deno-interceptor 3.0.0] - 2023-11-25
-- link:https://github.com/liquidz/build.edn/releases/tag/0.11.241[build.edn 0.11.241] - 2023-10-24
 
 | image::https://raw.githubusercontent.com/liquidz/liquidz/master/release.png[recent release]
 
