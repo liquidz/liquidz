@@ -17,10 +17,10 @@ image:https://github.com/liquidz/liquidz/workflows/build/badge.svg["GitHub Actio
 
 | *Recent articles*
 
+- link:https://zenn.dev/uochan/articles/2024-12-09-elin[Clojure開発環境 Elin を作った話] - 2024-12-14
 - link:https://zenn.dev/uochan/articles/2023-12-09-play-with-squint[Squintで(主にVimと)遊ぼう] - 2023-12-09
 - link:https://zenn.dev/uochan/articles/2022-12-18-alive-documents[生きたドキュメントを書こう] - 2022-12-18
 - link:https://tech.toyokumo.co.jp/entry/clj-kondo-as-bb-pods[Babashka pods から使う clj-kondo] - 2022-12-12
 - link:https://zenn.dev/uochan/articles/2022-12-09-dps-parinfer[ParinferのDenopsプラグインを作った] - 2022-12-08
-- link:https://zenn.dev/uochan/articles/2022-12-09-road-to-parinfer[Parinferのすすめ] - 2022-12-08
 
 |===
